@@ -1,0 +1,10 @@
+PODS:
+  - NSDate+RelativeTime (1.0.1)
+
+DEPENDENCIES:
+  - NSDate+RelativeTime (~> 1.0)
+
+SPEC CHECKSUMS:
+  NSDate+RelativeTime: 1b03a562615a4496a826e322096e5792e6706612
+
+COCOAPODS: 0.39.0

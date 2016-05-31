@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09302A241CFB5F82008A71FB /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 09302A231CFB5F82008A71FB /* OrderItem.m */; };
+		09302A271CFB68D1008A71FB /* OrderItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09302A261CFB68D1008A71FB /* OrderItemTableViewCell.m */; };
+		09302A2A1CFBD11A008A71FB /* ServiceChargeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09302A291CFBD11A008A71FB /* ServiceChargeTableViewCell.m */; };
+		097F3F4A1CFD1A7600EF25E2 /* UIImageView+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 097F3F491CFD1A7600EF25E2 /* UIImageView+Rotate.m */; };
+		09AB3D371CF9C38C00D7CB9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB3D361CF9C38C00D7CB9B /* main.m */; };
+		09AB3D3A1CF9C38C00D7CB9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB3D391CF9C38C00D7CB9B /* AppDelegate.m */; };
+		09AB3D3D1CF9C38C00D7CB9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB3D3C1CF9C38C00D7CB9B /* ViewController.m */; };
+		09AB3D401CF9C38C00D7CB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09AB3D3E1CF9C38C00D7CB9B /* Main.storyboard */; };
+		09AB3D421CF9C38C00D7CB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AB3D411CF9C38C00D7CB9B /* Assets.xcassets */; };
+		09AB3D451CF9C38C00D7CB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09AB3D431CF9C38C00D7CB9B /* LaunchScreen.storyboard */; };
+		09AB3D4E1CF9C80A00D7CB9B /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB3D4D1CF9C80A00D7CB9B /* PageContentViewController.m */; };
+		09AB3D521CF9D36F00D7CB9B /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB3D511CF9D36F00D7CB9B /* APIClient.m */; };
+		09AB3D551CFA345900D7CB9B /* recentOrders.json in Resources */ = {isa = PBXBuildFile; fileRef = 09AB3D541CFA345900D7CB9B /* recentOrders.json */; };
+		09AB3D581CFA349600D7CB9B /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB3D571CFA349600D7CB9B /* Order.m */; };
+		09D8A68A1CFD9CB5007E87EA /* EmptyDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D8A6891CFD9CB5007E87EA /* EmptyDataViewController.m */; };
+		09F8BBC91CFD2DB6004C12E5 /* Orderella_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F8BBC81CFD2DB6004C12E5 /* Orderella_TestTests.m */; };
+		FAD21197CDF549B96CFD6530 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E2A9E30C9CBD94E819284C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09F8BBCB1CFD2DB6004C12E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09AB3D2A1CF9C38C00D7CB9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09AB3D311CF9C38C00D7CB9B;
+			remoteInfo = "Orderella Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09302A221CFB5F82008A71FB /* OrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderItem.h; path = ViewControllers/OrderItem.h; sourceTree = "<group>"; };
+		09302A231CFB5F82008A71FB /* OrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderItem.m; path = ViewControllers/OrderItem.m; sourceTree = "<group>"; };
+		09302A251CFB68D1008A71FB /* OrderItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderItemTableViewCell.h; path = ViewControllers/OrderItemTableViewCell.h; sourceTree = "<group>"; };
+		09302A261CFB68D1008A71FB /* OrderItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderItemTableViewCell.m; path = ViewControllers/OrderItemTableViewCell.m; sourceTree = "<group>"; };
+		09302A281CFBD11A008A71FB /* ServiceChargeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceChargeTableViewCell.h; path = ViewControllers/ServiceChargeTableViewCell.h; sourceTree = "<group>"; };
+		09302A291CFBD11A008A71FB /* ServiceChargeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServiceChargeTableViewCell.m; path = ViewControllers/ServiceChargeTableViewCell.m; sourceTree = "<group>"; };
+		097F3F481CFD1A7600EF25E2 /* UIImageView+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Rotate.h"; path = "manual dependencies/UIImageView+Rotate.h"; sourceTree = "<group>"; };
+		097F3F491CFD1A7600EF25E2 /* UIImageView+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Rotate.m"; path = "manual dependencies/UIImageView+Rotate.m"; sourceTree = "<group>"; };
+		09AB3D321CF9C38C00D7CB9B /* Orderella Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orderella Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09AB3D361CF9C38C00D7CB9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09AB3D381CF9C38C00D7CB9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09AB3D391CF9C38C00D7CB9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09AB3D3B1CF9C38C00D7CB9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09AB3D3C1CF9C38C00D7CB9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09AB3D3F1CF9C38C00D7CB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09AB3D411CF9C38C00D7CB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09AB3D441CF9C38C00D7CB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09AB3D461CF9C38C00D7CB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09AB3D4C1CF9C80A00D7CB9B /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageContentViewController.h; path = ViewControllers/PageContentViewController.h; sourceTree = "<group>"; };
+		09AB3D4D1CF9C80A00D7CB9B /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PageContentViewController.m; path = ViewControllers/PageContentViewController.m; sourceTree = "<group>"; };
+		09AB3D501CF9D36F00D7CB9B /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIClient.h; path = ViewControllers/APIClient.h; sourceTree = "<group>"; };
+		09AB3D511CF9D36F00D7CB9B /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIClient.m; path = ViewControllers/APIClient.m; sourceTree = "<group>"; };
+		09AB3D541CFA345900D7CB9B /* recentOrders.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recentOrders.json; sourceTree = "<group>"; };
+		09AB3D561CFA349600D7CB9B /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Order.h; path = ViewControllers/Order.h; sourceTree = "<group>"; };
+		09AB3D571CFA349600D7CB9B /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Order.m; path = ViewControllers/Order.m; sourceTree = "<group>"; };
+		09D8A6881CFD9CB5007E87EA /* EmptyDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmptyDataViewController.h; path = ViewControllers/EmptyDataViewController.h; sourceTree = "<group>"; };
+		09D8A6891CFD9CB5007E87EA /* EmptyDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmptyDataViewController.m; path = ViewControllers/EmptyDataViewController.m; sourceTree = "<group>"; };
+		09F8BBC61CFD2DB6004C12E5 /* Orderella TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orderella TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F8BBC81CFD2DB6004C12E5 /* Orderella_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Orderella_TestTests.m; sourceTree = "<group>"; };
+		09F8BBCA1CFD2DB6004C12E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E2A9E30C9CBD94E819284C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CE6F6180939A7B73B9D541 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		350404F34493ACA4C4409481 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09AB3D2F1CF9C38C00D7CB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD21197CDF549B96CFD6530 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F8BBC31CFD2DB6004C12E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D79D065B41E99228E10F03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17E2A9E30C9CBD94E819284C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		097F3F461CFD0BA800EF25E2 /* tableview cells */ = {
+			isa = PBXGroup;
+			children = (
+				09302A251CFB68D1008A71FB /* OrderItemTableViewCell.h */,
+				09302A261CFB68D1008A71FB /* OrderItemTableViewCell.m */,
+				09302A281CFBD11A008A71FB /* ServiceChargeTableViewCell.h */,
+				09302A291CFBD11A008A71FB /* ServiceChargeTableViewCell.m */,
+			);
+			name = "tableview cells";
+			sourceTree = "<group>";
+		};
+		097F3F471CFD0BC300EF25E2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				09AB3D561CFA349600D7CB9B /* Order.h */,
+				09AB3D571CFA349600D7CB9B /* Order.m */,
+				09302A221CFB5F82008A71FB /* OrderItem.h */,
+				09302A231CFB5F82008A71FB /* OrderItem.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		09AB3D291CF9C38C00D7CB9B = {
+			isa = PBXGroup;
+			children = (
+				09AB3D341CF9C38C00D7CB9B /* Orderella Test ObjC */,
+				09F8BBC71CFD2DB6004C12E5 /* Orderella TestTests */,
+				09AB3D331CF9C38C00D7CB9B /* Products */,
+				7D56AF408BD159A5AF8979DA /* Pods */,
+				06D79D065B41E99228E10F03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09AB3D331CF9C38C00D7CB9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09AB3D321CF9C38C00D7CB9B /* Orderella Test.app */,
+				09F8BBC61CFD2DB6004C12E5 /* Orderella TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09AB3D341CF9C38C00D7CB9B /* Orderella Test ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				09F8BBC11CFD24F3004C12E5 /* App */,
+				09AB3D531CF9D37600D7CB9B /* Data */,
+				097F3F461CFD0BA800EF25E2 /* tableview cells */,
+				09F8BBC01CFD24C1004C12E5 /* Categories */,
+				09AB3D411CF9C38C00D7CB9B /* Assets.xcassets */,
+				09AB3D431CF9C38C00D7CB9B /* LaunchScreen.storyboard */,
+				09AB3D461CF9C38C00D7CB9B /* Info.plist */,
+				09AB3D351CF9C38C00D7CB9B /* Supporting Files */,
+			);
+			path = "Orderella Test ObjC";
+			sourceTree = "<group>";
+		};
+		09AB3D351CF9C38C00D7CB9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09AB3D361CF9C38C00D7CB9B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09AB3D531CF9D37600D7CB9B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				09AB3D541CFA345900D7CB9B /* recentOrders.json */,
+				09AB3D501CF9D36F00D7CB9B /* APIClient.h */,
+				09AB3D511CF9D36F00D7CB9B /* APIClient.m */,
+				097F3F471CFD0BC300EF25E2 /* models */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		09F8BBC01CFD24C1004C12E5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				097F3F481CFD1A7600EF25E2 /* UIImageView+Rotate.h */,
+				097F3F491CFD1A7600EF25E2 /* UIImageView+Rotate.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		09F8BBC11CFD24F3004C12E5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				09AB3D3E1CF9C38C00D7CB9B /* Main.storyboard */,
+				09AB3D381CF9C38C00D7CB9B /* AppDelegate.h */,
+				09AB3D391CF9C38C00D7CB9B /* AppDelegate.m */,
+				09AB3D3B1CF9C38C00D7CB9B /* ViewController.h */,
+				09AB3D3C1CF9C38C00D7CB9B /* ViewController.m */,
+				09AB3D4C1CF9C80A00D7CB9B /* PageContentViewController.h */,
+				09AB3D4D1CF9C80A00D7CB9B /* PageContentViewController.m */,
+				09D8A6881CFD9CB5007E87EA /* EmptyDataViewController.h */,
+				09D8A6891CFD9CB5007E87EA /* EmptyDataViewController.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		09F8BBC71CFD2DB6004C12E5 /* Orderella TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				09F8BBC81CFD2DB6004C12E5 /* Orderella_TestTests.m */,
+				09F8BBCA1CFD2DB6004C12E5 /* Info.plist */,
+			);
+			path = "Orderella TestTests";
+			sourceTree = "<group>";
+		};
+		7D56AF408BD159A5AF8979DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22CE6F6180939A7B73B9D541 /* Pods.debug.xcconfig */,
+				350404F34493ACA4C4409481 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09AB3D311CF9C38C00D7CB9B /* Orderella Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09AB3D491CF9C38C00D7CB9B /* Build configuration list for PBXNativeTarget "Orderella Test" */;
+			buildPhases = (
+				AC1921A1B4D55E85FE9D447B /* Check Pods Manifest.lock */,
+				09AB3D2E1CF9C38C00D7CB9B /* Sources */,
+				09AB3D2F1CF9C38C00D7CB9B /* Frameworks */,
+				09AB3D301CF9C38C00D7CB9B /* Resources */,
+				B7E151CB031F9F7E05F981CC /* Embed Pods Frameworks */,
+				E25C8CBDE3DAC56A6FF79411 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Orderella Test";
+			productName = "Orderella Test ObjC";
+			productReference = 09AB3D321CF9C38C00D7CB9B /* Orderella Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09F8BBC51CFD2DB6004C12E5 /* Orderella TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F8BBCD1CFD2DB6004C12E5 /* Build configuration list for PBXNativeTarget "Orderella TestTests" */;
+			buildPhases = (
+				09F8BBC21CFD2DB6004C12E5 /* Sources */,
+				09F8BBC31CFD2DB6004C12E5 /* Frameworks */,
+				09F8BBC41CFD2DB6004C12E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09F8BBCC1CFD2DB6004C12E5 /* PBXTargetDependency */,
+			);
+			name = "Orderella TestTests";
+			productName = "Orderella TestTests";
+			productReference = 09F8BBC61CFD2DB6004C12E5 /* Orderella TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09AB3D2A1CF9C38C00D7CB9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Airla Tech Ltd";
+				TargetAttributes = {
+					09AB3D311CF9C38C00D7CB9B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					09F8BBC51CFD2DB6004C12E5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 09AB3D311CF9C38C00D7CB9B;
+					};
+				};
+			};
+			buildConfigurationList = 09AB3D2D1CF9C38C00D7CB9B /* Build configuration list for PBXProject "Orderella Test ObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09AB3D291CF9C38C00D7CB9B;
+			productRefGroup = 09AB3D331CF9C38C00D7CB9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09AB3D311CF9C38C00D7CB9B /* Orderella Test */,
+				09F8BBC51CFD2DB6004C12E5 /* Orderella TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09AB3D301CF9C38C00D7CB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09AB3D451CF9C38C00D7CB9B /* LaunchScreen.storyboard in Resources */,
+				09AB3D551CFA345900D7CB9B /* recentOrders.json in Resources */,
+				09AB3D421CF9C38C00D7CB9B /* Assets.xcassets in Resources */,
+				09AB3D401CF9C38C00D7CB9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F8BBC41CFD2DB6004C12E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC1921A1B4D55E85FE9D447B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E151CB031F9F7E05F981CC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E25C8CBDE3DAC56A6FF79411 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09AB3D2E1CF9C38C00D7CB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09AB3D581CFA349600D7CB9B /* Order.m in Sources */,
+				09302A271CFB68D1008A71FB /* OrderItemTableViewCell.m in Sources */,
+				09AB3D521CF9D36F00D7CB9B /* APIClient.m in Sources */,
+				09D8A68A1CFD9CB5007E87EA /* EmptyDataViewController.m in Sources */,
+				09AB3D3D1CF9C38C00D7CB9B /* ViewController.m in Sources */,
+				09302A241CFB5F82008A71FB /* OrderItem.m in Sources */,
+				09302A2A1CFBD11A008A71FB /* ServiceChargeTableViewCell.m in Sources */,
+				09AB3D4E1CF9C80A00D7CB9B /* PageContentViewController.m in Sources */,
+				097F3F4A1CFD1A7600EF25E2 /* UIImageView+Rotate.m in Sources */,
+				09AB3D3A1CF9C38C00D7CB9B /* AppDelegate.m in Sources */,
+				09AB3D371CF9C38C00D7CB9B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F8BBC21CFD2DB6004C12E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F8BBC91CFD2DB6004C12E5 /* Orderella_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09F8BBCC1CFD2DB6004C12E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09AB3D311CF9C38C00D7CB9B /* Orderella Test */;
+			targetProxy = 09F8BBCB1CFD2DB6004C12E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09AB3D3E1CF9C38C00D7CB9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09AB3D3F1CF9C38C00D7CB9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09AB3D431CF9C38C00D7CB9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09AB3D441CF9C38C00D7CB9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09AB3D471CF9C38C00D7CB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09AB3D481CF9C38C00D7CB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09AB3D4A1CF9C38C00D7CB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22CE6F6180939A7B73B9D541 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Orderella Test ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.airlatech.Orderella-Test-ObjC";
+				PRODUCT_NAME = "Orderella Test";
+			};
+			name = Debug;
+		};
+		09AB3D4B1CF9C38C00D7CB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 350404F34493ACA4C4409481 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Orderella Test ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.airlatech.Orderella-Test-ObjC";
+				PRODUCT_NAME = "Orderella Test";
+			};
+			name = Release;
+		};
+		09F8BBCE1CFD2DB6004C12E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Orderella TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.airlatech.Orderella-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orderella Test.app/Orderella Test";
+			};
+			name = Debug;
+		};
+		09F8BBCF1CFD2DB6004C12E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Orderella TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.airlatech.Orderella-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orderella Test.app/Orderella Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09AB3D2D1CF9C38C00D7CB9B /* Build configuration list for PBXProject "Orderella Test ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09AB3D471CF9C38C00D7CB9B /* Debug */,
+				09AB3D481CF9C38C00D7CB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09AB3D491CF9C38C00D7CB9B /* Build configuration list for PBXNativeTarget "Orderella Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09AB3D4A1CF9C38C00D7CB9B /* Debug */,
+				09AB3D4B1CF9C38C00D7CB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F8BBCD1CFD2DB6004C12E5 /* Build configuration list for PBXNativeTarget "Orderella TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F8BBCE1CFD2DB6004C12E5 /* Debug */,
+				09F8BBCF1CFD2DB6004C12E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09AB3D2A1CF9C38C00D7CB9B /* Project object */;
+}
