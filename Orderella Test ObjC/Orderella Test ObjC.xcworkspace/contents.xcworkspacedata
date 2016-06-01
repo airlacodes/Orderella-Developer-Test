@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/Jeevan/Desktop/updated cv/tests/Orderella Test ObjC/Orderella Test ObjC.xcodeproj">
+      location = "group:Orderella Test ObjC.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
